@@ -8,15 +8,23 @@ public class checkPrime {
         Scanner sc= new Scanner(System.in);
         System.out.print("enter the number: ");
         int n= sc.nextInt();
-        int count = 0;
-        for(int i=1;i<=n;i++)
+        boolean isPrime=true;
+        if(n<=1)
+        {
+            isPrime=false;
+        }
+        else{
+ for(int i=2;i<=Math.sqrt(n);i++)
         {
             if(n%i==0)
             {
-                count++;
+                isPrime=false;
+                break;
             }
         }
-        if(count==2)
+        }
+       
+        if(isPrime)
         {
             System.out.println(n+" is a prime number");
         }
