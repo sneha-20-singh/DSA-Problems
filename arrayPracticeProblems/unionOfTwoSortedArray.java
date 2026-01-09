@@ -8,7 +8,7 @@ public class unionOfTwoSortedArray {
     {
          int i=0,j=0;
          List<Integer> result = new ArrayList<>();
-         while(i<a.length &&j<b.length)
+         while(i<a.length && j<b.length)
          {
             //skip duplicates in array a
             if(i>0 && a[i] == a[i-1])
