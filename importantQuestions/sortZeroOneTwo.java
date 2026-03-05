@@ -1,5 +1,6 @@
 package importantQuestions;
 import java.util.*;
+//sort 0'S 1'S AND 2'S Optimal approach
 public class sortZeroOneTwo {
     public void SortZeroOneTwo(int[] nums)
     {
