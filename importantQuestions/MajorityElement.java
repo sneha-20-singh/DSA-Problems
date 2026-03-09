@@ -1,6 +1,7 @@
 package importantQuestions;
 import java.util.HashMap;
 public class MajorityElement {
+    //better solution
     public static int findMajority(int[] nums)
     {
         HashMap<Integer,Integer> map=new HashMap<>();
